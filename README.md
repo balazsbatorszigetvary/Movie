@@ -1,6 +1,4 @@
-# Movie-website using Html,CSS and JavaScript ES6, jQuery along with Axios-practising purposies
-
-Movie-project
+# Movie-project
 
 The objective of this practical project was to strengthen my knowledge in HTML, CSS, JavaScript ES6, jQuery, and Axios. The primary focus encompassed the implementation of real-time movie data retrieval through Axios, enhancing both performance and responsiveness aspects.
 
