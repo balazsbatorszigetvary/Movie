@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--lightslider-->
+    <link type="text/css" rel="stylesheet" href="./lightslider-master/src/css/lightslider.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <script src="./lightslider-master/src/js/lightslider.js"></script>
+
+    <!-- Custom StyleSheet -->
+   
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Movie Website</title>
+  </head>
+  <body>
+
+    <!--overlay when the side bar opens starts-->
+  <div class="overlay"></div>
+  <!--overlay when the side bar opens ends-->
+    
+
+  <!-- Navbar starts-->
+    <div class="navigation" id="nav">
+
+        <div class="nav-center container">
+                    
+            <img src="./img/logo.png" class="logo" alt="" />
+
+                    <ul class="nav-list d-flex">
+
+                    <div class="img-closebtn-container">
+                        <img src="./img/logo.png" class="logo2" alt="" />
+                        <button class="close-btn"><i class="fas fa-times"></i></button>
+                    </div>
+
+                        <li class="nav-item">
+                            <a href="#main" class="nav-link">Home</a>
+                        </li>
+
+                      <li class="nav-item">
+                          <a href="#categories" class="nav-link">Categories</a>
+                      </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#top" class="nav-link">Top-rated</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./html/searchAPI_index.html" class="nav-link2">Search movie</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>      
+                        
+                    </ul>
+
+                    <div class="icons d-flex">
+
+                        <a href="login.html" class="icon">
+                            <i class="bx bx-user"></i>
+                        </a>
+
+                        <div class="icon">
+                        <i class="bx bx-search"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="hamburger">
+                        <i class="bx bx-menu-alt-left"></i>
+                    </div>
+        </div>
+    </div>
+    <!-- Navbar ends-->
+
+    <!--Showcase section starts-->
+    <section id="main">
+
+        <h1 class="showcase-heading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+
+            <li class="item-a">
+                <div class="showcase-box">
+                  <img src="./img/godzilla.jpg">
+                </div>
+            </li>
+
+            <li class="item-b">
+              <div class="showcase-box">
+                <img src="./img/starwars.webp">
+              </div>
+          </li>
+
+          <li class="item-c">
+            <div class="showcase-box">
+              <img src="./img/magicmike.jpg">
+            </div>
+        </li>
+
+        <li class="item-d">
+          <div class="showcase-box">
+            <img src="./img/avatar.jpg">
+          </div>
+      </li>
+
+      <li class="item-e">
+        <div class="showcase-box">
+          <img src="./img/extraction.webp">
+        </div>
+    </li>
+
+    <li class="item-f">
+      <div class="showcase-box">
+        <img src="./img/sans.jpg">
+      </div>
+  </li>
+          
+        </ul>
+
+        
+      </section>
+      <!--Showcase section ends-->
+
+
+
+      <!--latest movies starts-->
+      <section id="latest">
+
+        <h2 class="latest-heading">Latest Movies</h2>
+
+        <ul id="autoWidth2" class="cs-hidden">
+
+          <li class="item-g">
+              <div class="latest-box">
+                <!--IMG-->
+                  <div class="latest-b-img">
+                    <img src="./img/sans.jpg">
+                  </div>
+                <!--TEXT-->
+                  <div class="latest-b-text">
+                      <strong>Kin 2018</strong>
+                      <p>Action movie</p>
+                  </div>
+              </div>
+          </li>
+
+          <li class="item-h">
+            <div class="latest-box">
+              <!--IMG-->
+                <div class="latest-b-img">
+                  <img src="./img/sans.jpg">
+                </div>
+              <!--TEXT-->
+                <div class="latest-b-text">
+                    <strong>Kin 2018</strong>
+                    <p>Action movie</p>
+                </div>
+            </div>
+        </li>
+
+        <li class="item-i">
+          <div class="latest-box">
+            <!--IMG-->
+              <div class="latest-b-img">
+                <img src="./img/sans.jpg">
+              </div>
+            <!--TEXT-->
+              <div class="latest-b-text">
+                  <strong>Kin 2018</strong>
+                  <p>Action movie</p>
+              </div>
+          </div>
+      </li>
+
+      <li class="item-l">
+        <div class="latest-box">
+          <!--IMG-->
+            <div class="latest-b-img">
+              <img src="./img/sans.jpg">
+            </div>
+          <!--TEXT-->
+            <div class="latest-b-text">
+                <strong>Kin 2018</strong>
+                <p>Action movie</p>
+            </div>
+        </div>
+    </li>
+
+    <li class="item-m">
+      <div class="latest-box">
+        <!--IMG-->
+          <div class="latest-b-img">
+            <img src="./img/sans.jpg">
+          </div>
+        <!--TEXT-->
+          <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action movie</p>
+          </div>
+      </div>
+  </li>
+
+  <li class="item-n">
+    <div class="latest-box">
+      <!--IMG-->
+        <div class="latest-b-img">
+          <img src="./img/sans.jpg">
+        </div>
+      <!--TEXT-->
+        <div class="latest-b-text">
+            <strong>Kin 2018</strong>
+            <p>Action movie</p>
+        </div>
+    </div>
+</li>
+
+<li class="item-o">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+
+<li class="item-p">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+
+<li class="item-q">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+
+<li class="item-r">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+
+<li class="item-s">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+
+<li class="item-t">
+  <div class="latest-box">
+    <!--IMG-->
+      <div class="latest-b-img">
+        <img src="./img/sans.jpg">
+      </div>
+    <!--TEXT-->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>Action movie</p>
+      </div>
+  </div>
+</li>
+          
+        </ul>
+
+
+      </section>
+      <!--latest movies ends-->
+
+
+
+      <!-- Categories section starts-->
+      <section class="service-section" id="categories">
+        <div class="categories-container">
+
+            <div class="row">
+                <div class="section-title">
+                    <h1>Categories</h1>
+                </div>
+            </div>
+
+            <div class="categories-row">
+                <!--CATEGORIES STARTS-->
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/western.png" alt="Western-movie" class="img-service">
+
+                        
+                            <div class="overlay">
+                                <h3>Western</h3>
+                            </div>
+                          
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/Mystery.png" alt="mystery-movie" class="img-service">
+
+                        <div class="overlay">
+                            <h3>Mystery</h3>
+                         </div>
+                        
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/drama.png" alt="drama-movie" class="img-service">
+                        <div class="overlay">
+                            <h3>Drama</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/fantasy.png" alt="fantasy-movie" class="img-service">
+                        <div class="overlay">
+                            <h3>Fantasy</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/Comedy.png" alt="comedy-movie" class="img-service">
+                        <div class="overlay">
+                            <h3>Comedy</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <img src="./img/animation.png" alt="animation-movie" class="img-service">
+                        <div class="overlay">
+                            <h3>Animation</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!-- Categories section ends-->
+
+
+<!--About section starts-->
+
+<section class="about-section" id="about">
+    
+  
+        <div class="about-section-container">
+
+                <div class="img-box">
+                    <img src="./img/Universal-Pictures.png" alt="about us" class="about-img">
+                </div>
+  
+                <div class="about-content">
+  
+                      <div class="section-title">
+                          <h1>About us</h1>
+                      </div>
+                    
+                    <div class="about-text">
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laboriosam consequatur minima enim deleniti eligendi repellat ducimus voluptatem odit totam velit adipisci culpa consequuntur? Similique quaerat sequi nihil aut odit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dignissimos maxime exercitationem? Voluptate deleniti odio beatae corporis aut maxime explicabo quae numquam temporibus consequuntur! Id nisi ullam incidunt recusandae magni!Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                   </div>
+  
+                    <div class="stats">
+
+                      <div class="stat-container">
+
+                            <div class="stat-box">
+                                <h2>150K+</h2>
+                                <h5>Daily Downloads</h5>
+                            </div>
+  
+                            <div class="stat-box">
+                                <h2>2500+</h2>
+                                <h5>Movies Available</h5>
+                            </div>
+  
+                            <div class="stat-box">
+                                <h2>1M+</h2>
+                                <h5>Happy Clients</h5>
+                            </div>
+
+                          </div>
+                    </div>
+  
+                   
+                    
+              </div>
+              
+        </div>
+
+        <div class="contactus-btn">
+          <a href="#contact" class="contactus">Contact Us</a>
+        </div>
+    
+  </section>
+
+
+  
+  <!--About section ends-->
+
+
+  <!--Top rated section starts-->
+
+<section class="work-section" id="top">
+    <div class="toprated-container">
+  
+        <div class="row">
+            <div class="section-title">
+                <h1>Top-Rated Movies</h1>
+            </div>
+        </div>
+  
+        <div class="toprated-row">
+  
+                <!--top-rated movies start-->
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/Doctor strange.png" alt="Movie 1" data-large="./img/Doctor strange.png">
+                        <div class="overlay">
+                            <h4>Doctor Strange</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/captainmarvel.png" alt="Movie 2" data-large="./img/captainmarvel.png" >
+                        <div class="overlay">
+                            <h4>Captain Marvel</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/aquaman_folder_icon512.png" alt="Movie 3" data-large="./img/aquaman_folder_icon512.png" >
+                        <div class="overlay">
+                            <h4>Aqua man</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/xmen.png" alt="Movie 1" data-large="./img/xmen.png" >
+                        <div class="overlay">
+                            <h4>X-men</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/guardians.png" alt="Movie 1" data-large="./img/guardians.png" >
+                        <div class="overlay">
+                            <h4>Guardians of the galaxy</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="work-items">
+                    <div class="work-item-inner">
+                        <img src="./img/batman.png" alt="Movie 1" data-large="./img/batman.png" >
+                        <div class="overlay">
+                            <h4>The Dark Knith</h4>
+                        </div>
+                    </div>
+                </div>
+  
+  
+  
+        </div>
+    </div>
+  </section>
+  
+  <!--Top rated section ends-->
+
+  <!--light box start-->
+<div class="lightbox">
+    <div class="img-box">
+     
+           <div class="lightbox-close">&times;</div>
+           <div class="img-container-box">
+                <img src="" class="lightbox-img" alt="img1">
+           </div>
+           <div class="lightbox-caption">
+ 
+                 <div class="category-counter-container">
+                     <div class="lightbox-category">
+ 
+                     </div>
+ 
+                     <div class="lightbox-counter">
+ 
+                     </div>
+                 </div>
+ 
+                 <div class="lightbox-controls">
+ 
+                       <div class="prev">
+                         
+ 
+                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+                       </div>
+ 
+                       <div class="next">
+                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                       </div>
+ 
+                 </div>
+ 
+           </div>
+ 
+     </div>
+ </div>
+ <!--light box ends-->
+
+
+ <!--Contact section starts-->
+<section class="contact-section" id="contact">
+    <div class="container">
+  
+        <div class="row">
+            
+                    <div class="section-title">
+                        <h1>Contact Us</h1>
+                    </div>
+                
+        </div>
+    
+  
+    <div class="row">
+        <div class="contact-form">
+            <form action="" class="form">
+  
+                <div class="row">
+  
+                        <div class="left input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your Name Here" class="input-control">
+                        </div>
+  
+                        <div class="right input-group">
+                            <label>E-mail or phone</label>
+                            <input type="text" placeholder="Your Name Here" class="input-control">
+                        </div>    
+  
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea class="input-control" placeholder="Your Message Here"></textarea>
+                    </div>
+                </div>
+  
+                <div class="form-button">
+                    <button class="btn btn-01" id="button">Send message</button>
+                </div>
+                <!--
+                <div class="dialog">
+                    Thank you for contacting us. We'll get back to you soon.
+                </div>
+                -->
+            </form>
+        </div>
+    </div>
+  </section>
+  
+    
+  
+
+  <!--Contact section ends-->
+
+
+  <!--Contact info starts-->
+
+<section class="contact-info-section">
+
+  <div class="cotact-info-container">
+
+            <div class="contact-row">
+
+              <div class="contact-info">
+
+                      <div class="info-item">
+                          <h5>Adress</h5>
+                          <p>Miami,USA,12211</p>
+                      </div>
+
+                      <div class="info-item">
+                          <h5>Phone</h5>
+                          <p>91 567 300</p>
+                      </div>
+
+                      <div class="info-item">
+                          <h5>E-mail</h5>
+                          <p>cometothemovies@cometothemovies.com</p>
+                      </div>
+                  
+              </div>
+
+          </div>
+
+          <div class="Social-media-row">
+              <div class="social-links">
+                  <a href="#!">
+                      <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+
+                  <a href="#!">
+                      <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+
+                  <a href="#!">
+                      <i class="fab fa-instagram fa-2x"></i>
+                  </a>
+
+                  <a href="#!">
+                      <i class="fab fa-github fa-2x"></i>
+                  </a>
+              </div>
+          </div>
+  </div>
+
+</section>
+
+<!--Contact info & social icons ends-->
+
+
+    
+      <script>
+        $(document).ready(function() {
+          $('#autoWidth,#autoWidth2').lightSlider({
+              autoWidth:true,
+              loop:true,
+              onSliderLoad: function() {
+                  $('#autoWidth,#autoWidth2').removeClass('cs-hidden');
+              } 
+          });  
+        });
+    </script>
+
+  </body>
+  <script src="./lightslider-master/src/js/lightslider.js"></script>
+  
+  <script src="./js/index.js"></script>
+
+  <script src="./js/sliderJQ.js"></script>
+
+  <script src="./js/scrollcalculation.js"></script>
+
+</html>
